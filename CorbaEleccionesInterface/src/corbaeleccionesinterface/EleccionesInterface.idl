@@ -1,0 +1,30 @@
+
+module Elecciones{ 
+    
+    interface Votos{ 
+        
+        /*
+         *Obtener los Votos
+         */
+        ArrayList<String> consultar_participantes_votos();
+
+
+        /*
+        *Verificar si el usuario existe en la BD
+        *
+        */
+        Boolean Usuario_existe(in string Matricula);
+
+        /*
+        *Comprobar si la matricula existe
+        *
+        */
+        Boolean Matricula_existe(in string Matricula)
+        
+        /*
+        *
+        *   
+        */
+
+    }; 
+};
